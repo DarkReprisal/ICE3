@@ -42,7 +42,7 @@ begin
         A     => A(1),
         B     => B(1),
         Cin   => w_carry(0),
-        S     => S(2),
+        S     => S(1),
         Cout  => w_carry(1)
     );
     full_adder_2: full_adder
